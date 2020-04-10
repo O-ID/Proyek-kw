@@ -19,12 +19,18 @@ Route::get('/', function () {
 Route::get('/profile', function () {
     return view('profile');
 });
-Route::get('/', function () {
-    return view('index');
+Route::get('/table', function () {
+    return view('table');
 });
-Route::get('/', function () {
-    return view('index');
+Route::get('/typo', function () {
+    return view('typo');
 });
-Route::get('/', function () {
-    return view('index');
+Route::get('/icon', function () {
+    return view('icon');
+});
+Route::get('/map', function () {
+    return view('map');
+});
+Route::get('/notif', function () {
+    return view('notif');
 });

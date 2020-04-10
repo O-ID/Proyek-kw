@@ -1,0 +1,27 @@
+@extends('menu')
+@section('content')
+<div class="card card-plain">
+    <div class="card-header card-header-primary">
+    <h4 class="card-title">Map Butuh Auth</h4>
+    <p class="card-category">Hubungi Kami di
+        <a target="_blank" href="https://web.facebook.com/">facebook</a>
+    </p>
+    </div>
+    <!-- <div class="row">
+    <div class="col-md-12">
+        <div class="card-body">
+        <div class="iframe-container d-none d-lg-block">
+            <iframe src="https://design.google.com/icons/">
+            <p>Your browser does not support iframes.</p>
+            </iframe>
+        </div>
+        <div class="col-md-12 d-none d-sm-block d-md-block d-lg-none d-block d-sm-none text-center ml-auto mr-auto">
+            <h5 class="card-description">The icons are visible on Desktop mode inside an iframe. Since the iframe is not working on Mobile and Tablets please visit the icons on their original page on Google. Check the
+            <a href="https://design.google.com/icons/" target="_blank">Material Icons</a>
+            </h5>
+        </div>
+        </div>
+    </div>
+    </div> -->
+</div>
+@endsection

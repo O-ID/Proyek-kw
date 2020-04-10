@@ -31,44 +31,44 @@
         </a></div>
       <div class="sidebar-wrapper">
         <ul class="nav">
-          <li class="nav-item active">
+          <li class="nav-item {{ request()->is('/') ? 'active' : '' }}">
             <a class="nav-link" href="/">
               <i class="material-icons">dashboard</i>
               <p>Dashboard</p>
             </a>
           </li>
-          <li class="nav-item ">
+          <li class="nav-item {{ request()->is('profile') ? 'active' : '' }}">
             <a class="nav-link" href="/profile">
               <i class="material-icons">person</i>
               <p>User Profile</p>
             </a>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="./tables.html">
+          <li class="nav-item {{ request()->is('table') ? 'active' : '' }}">
+            <a class="nav-link" href="/table">
               <i class="material-icons">content_paste</i>
               <p>Table List</p>
             </a>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="./typography.html">
+          <li class="nav-item {{ request()->is('typo') ? 'active' : '' }}">
+            <a class="nav-link" href="/typo">
               <i class="material-icons">library_books</i>
               <p>Typography</p>
             </a>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="./icons.html">
+          <li class="nav-item {{ request()->is('icon') ? 'active' : '' }}">
+            <a class="nav-link" href="/icon">
               <i class="material-icons">bubble_chart</i>
               <p>Icons</p>
             </a>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="./map.html">
+          <li class="nav-item {{ request()->is('map') ? 'active' : '' }}">
+            <a class="nav-link" href="/map">
               <i class="material-icons">location_ons</i>
               <p>Maps</p>
             </a>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="./notifications.html">
+          <li class="nav-item {{ request()->is('notif') ? 'active' : '' }}">
+            <a class="nav-link" href="/notif">
               <i class="material-icons">notifications</i>
               <p>Notifications</p>
             </a>
